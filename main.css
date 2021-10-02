@@ -34,14 +34,13 @@ flex-grow: 4;
 .flex-container .nav{
 flex-grow: 1;
 flex-direction: column;
-width: 10%;
+width: 15%;
 	
 }
 
 
 .flex-container .article{
 width:  20%;
-height: 300px;
 text-align: center;
 	
 }
@@ -53,7 +52,23 @@ text-align: center;
 	
 }
 
-/*Responsive Layout makes a one column layout instead of a two column layout */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+/*Responsive Layout */
 @media (max-width: 800px) {
 	.flex-container {
 	flex-direction: column;
