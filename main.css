@@ -8,8 +8,10 @@
 }
 
 header {
+height: 50px;
 width: 100%;
 text-align: center;
+background-color: purple;
 	
 }
 
@@ -18,7 +20,7 @@ display: flex;
 background-color: darkmagenta;
 flex-direction: row;
 align-items: stretch;
-height: 150px;
+height: 250px;
 	
 	
 }
@@ -32,10 +34,20 @@ flex-grow: 4;
 .flex-container .nav{
 flex-grow: 1;
 flex-direction: column;
+width: 10%;
+	
+}
+
+
+.flex-container .article{
+width:  20%;
+height: auto;
+text-align: center;
 	
 }
 
 footer {
+height: 20px;
 width: 100%;
 text-align: center;
 	
